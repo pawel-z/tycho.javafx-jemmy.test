@@ -30,6 +30,7 @@
 					<testFailureIgnore>false</testFailureIgnore>
 					<argLine>-Xms40m -Xmx512m -Dosgi.framework.extensions=at.bestsolution.efxclipse.runtime.osgi -Dtest.jemmy.product=at.bestsolution.efxclipse.testcases.e4.product</argLine>
 					
+					<!-- what should be here? -->
 					<useUIHarness>true</useUIHarness>
 					<useUIThread>false</useUIThread>
 					<dependencies>
