@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advanced="http://www.eclipse.org/ui/2010/UIModel/application/ui/advanced" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_A7QWkOL-EeGP-5z69KadAQ" elementId="org.eclipse.e4.ide.application" bindingContexts="_A7QWkeL-EeGP-5z69KadAQ">
+  <children xsi:type="basic:TrimmedWindow" xmi:id="_A7QWoOL-EeGP-5z69KadAQ" label="at.bestsolution.efxclipse.testcases.e4" x="0" y="0" width="1024" height="800">
+    <persistedState key="fx.stage.decoration" value="platform:/plugin/at.bestsolution.efxclipse.testcases.e4/at/bestsolution/efxclipse/testcases/e4/decoration/TopArea.fxml"/>
+    <children xsi:type="advanced:PerspectiveStack" xmi:id="_mK1iIO6wEeG4lfn-YKJbJw" elementId="at.bestsolution.efxclipse.testcases.e4.perspectivestack.0">
+      <children xsi:type="advanced:Perspective" xmi:id="_m-PVAO6wEeG4lfn-YKJbJw" elementId="at.bestsolution.efxclipse.testcases.e4.perspective.0" label="P 0">
+        <children xsi:type="basic:PartSashContainer" xmi:id="_A7Q9oOL-EeGP-5z69KadAQ" horizontal="true">
+          <children xsi:type="basic:Part" xmi:id="_A7Q9oeL-EeGP-5z69KadAQ" containerData="10" contributionURI="bundleclass://at.bestsolution.efxclipse.testcases.e4/at.bestsolution.efxclipse.testcases.e4.parts.ControlPanel" label="Control Stack"/>
+          <children xsi:type="basic:PartStack" xmi:id="_A7Q9ouL-EeGP-5z69KadAQ" elementId="content.stack" containerData="80">
+            <children xsi:type="basic:Part" xmi:id="_ZHcNwOL-EeGP-5z69KadAQ" elementId="at.bestsolution.efxclipse.testcases.e4.part.0" contributionURI="bundleclass://at.bestsolution.efxclipse.testcases.e4/at.bestsolution.efxclipse.testcases.e4.parts.ContentPanel" label="C0" closeable="true"/>
+            <children xsi:type="basic:Part" xmi:id="_cjVs4OL-EeGP-5z69KadAQ" elementId="at.bestsolution.efxclipse.testcases.e4.part.1" contributionURI="bundleclass://at.bestsolution.efxclipse.testcases.e4/at.bestsolution.efxclipse.testcases.e4.parts.ContentPanel" label="C1"/>
+            <children xsi:type="basic:Part" xmi:id="_f5-RgOL-EeGP-5z69KadAQ" elementId="at.bestsolution.efxclipse.testcases.e4.part.2" toBeRendered="false" contributionURI="bundleclass://at.bestsolution.efxclipse.testcases.e4/at.bestsolution.efxclipse.testcases.e4.parts.ContentPanel" label="C2" closeable="true"/>
+            <children xsi:type="basic:Part" xmi:id="_jRKPwOL-EeGP-5z69KadAQ" elementId="at.bestsolution.efxclipse.testcases.e4.part.3" contributionURI="bundleclass://at.bestsolution.efxclipse.testcases.e4/at.bestsolution.efxclipse.testcases.e4.parts.ContentPanel" label="C3" closeable="true"/>
+            <children xsi:type="advanced:Placeholder" xmi:id="_ddQGkPW5EeG7tr8qKhf17Q" elementId="at.bestsolution.efxclipse.testcases.e4.placeholder.0" ref="_T4J0kPW5EeG7tr8qKhf17Q"/>
+          </children>
+          <children xsi:type="basic:Part" xmi:id="_txxY4OMsEeGP-5z69KadAQ" elementId="at.bestsolution.efxclipse.testcases.e4.part.4" toBeRendered="false" containerData="10" contributionURI="bundleclass://at.bestsolution.efxclipse.testcases.e4/at.bestsolution.efxclipse.testcases.e4.parts.ContentPanel" label="C4"/>
+        </children>
+      </children>
+      <children xsi:type="advanced:Perspective" xmi:id="_uIi_kO6wEeG4lfn-YKJbJw" elementId="at.bestsolution.efxclipse.testcases.e4.perspective.1" label="P 1">
+        <children xsi:type="basic:PartSashContainer" xmi:id="_wbAKYO6wEeG4lfn-YKJbJw" elementId="at.bestsolution.efxclipse.testcases.e4.partsashcontainer.0">
+          <children xsi:type="basic:Part" xmi:id="_xEsAkO6wEeG4lfn-YKJbJw" elementId="at.bestsolution.efxclipse.testcases.e4.part.5" contributionURI="bundleclass://at.bestsolution.efxclipse.testcases.e4/at.bestsolution.efxclipse.testcases.e4.parts.ContentPanel" label="C5" tooltip=""/>
+          <children xsi:type="basic:Part" xmi:id="_xntOEO6wEeG4lfn-YKJbJw" elementId="at.bestsolution.efxclipse.testcases.e4.part.6" contributionURI="bundleclass://at.bestsolution.efxclipse.testcases.e4/at.bestsolution.efxclipse.testcases.e4.parts.ContentPanel" label="C6"/>
+          <children xsi:type="advanced:Placeholder" xmi:id="_cRNfUPW7EeG7tr8qKhf17Q" elementId="at.bestsolution.efxclipse.testcases.e4.placeholder.0" ref="_T4J0kPW5EeG7tr8qKhf17Q"/>
+        </children>
+      </children>
+    </children>
+    <mainMenu xmi:id="_W8hHoORZEeGP-5z69KadAQ" elementId="at.bestsolution.efxclipse.testcases.e4.menu.0">
+      <children xsi:type="menu:Menu" xmi:id="_Xwuy0ORZEeGP-5z69KadAQ" elementId="at.bestsolution.efxclipse.testcases.e4.menu.1" label="M1">
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_f6s64ORqEeGP-5z69KadAQ" elementId="at.bestsolution.efxclipse.testcases.e4.handledmenuitem.0" label="Push - HI 0" command="_FEZr8OUcEeGP-5z69KadAQ"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_lb8V4ORqEeGP-5z69KadAQ" elementId="at.bestsolution.efxclipse.testcases.e4.handledmenuitem.1" label="Check - HI 1" type="Check" command="_3PQSEOqiEeGrz8mV_3Gr5A"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_pBaAsORqEeGP-5z69KadAQ" elementId="at.bestsolution.efxclipse.testcases.e4.handledmenuitem.2" label="Radio - HI 2" type="Radio" command="_FEZr8OUcEeGP-5z69KadAQ"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_rnWvQORqEeGP-5z69KadAQ" elementId="at.bestsolution.efxclipse.testcases.e4.handledmenuitem.3" label="Radio - HI 3" type="Radio" command="_FEZr8OUcEeGP-5z69KadAQ"/>
+        <children xsi:type="menu:Menu" xmi:id="_yWJigORqEeGP-5z69KadAQ" elementId="at.bestsolution.efxclipse.testcases.e4.menu.2" label="M1-1">
+          <children xsi:type="menu:DirectMenuItem" xmi:id="_1-PqkORqEeGP-5z69KadAQ" elementId="at.bestsolution.efxclipse.testcases.e4.directmenuitem.0" label="Push - DI 0" contributionURI="bundleclass://at.bestsolution.efxclipse.testcases.e4/at.bestsolution.efxclipse.testcases.e4.handlers.DiHandler"/>
+          <children xsi:type="menu:DirectMenuItem" xmi:id="_4k8nEORqEeGP-5z69KadAQ" elementId="at.bestsolution.efxclipse.testcases.e4.directmenuitem.1" label="Check - DI 1" type="Check" contributionURI="bundleclass://at.bestsolution.efxclipse.testcases.e4/at.bestsolution.efxclipse.testcases.e4.handlers.DiHandler"/>
+          <children xsi:type="menu:DirectMenuItem" xmi:id="_7Pm2gORqEeGP-5z69KadAQ" elementId="at.bestsolution.efxclipse.testcases.e4.directmenuitem.2" label="Radio - DI 2" type="Radio" contributionURI="bundleclass://at.bestsolution.efxclipse.testcases.e4/at.bestsolution.efxclipse.testcases.e4.handlers.DiHandler"/>
+          <children xsi:type="menu:DirectMenuItem" xmi:id="_-21b4ORqEeGP-5z69KadAQ" elementId="at.bestsolution.efxclipse.testcases.e4.directmenuitem.3" label="Radio - DI 3" type="Radio" contributionURI="bundleclass://at.bestsolution.efxclipse.testcases.e4/at.bestsolution.efxclipse.testcases.e4.handlers.DiHandler"/>
+        </children>
+      </children>
+      <children xsi:type="menu:Menu" xmi:id="_d-oDwO6yEeG4lfn-YKJbJw" elementId="at.bestsolution.efxclipse.testcases.e4.menu.3" label="Switch">
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_jYdPMO6yEeG4lfn-YKJbJw" elementId="at.bestsolution.efxclipse.testcases.e4.handledmenuitem.4" label="Perspective 0" command="_kCbZQO6yEeG4lfn-YKJbJw">
+          <parameters xmi:id="_cTZbkO6zEeG4lfn-YKJbJw" elementId="" name="at.bestsolution.efxclipse.testcases.e4.command.2.perspective" value="at.bestsolution.efxclipse.testcases.e4.perspective.0"/>
+        </children>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_qMwYEO6zEeG4lfn-YKJbJw" elementId="at.bestsolution.efxclipse.testcases.e4.handledmenuitem.5" label="Perspective 1" command="_kCbZQO6yEeG4lfn-YKJbJw">
+          <parameters xmi:id="_wqiT0O6zEeG4lfn-YKJbJw" elementId="" name="at.bestsolution.efxclipse.testcases.e4.command.2.perspective" value="at.bestsolution.efxclipse.testcases.e4.perspective.1"/>
+        </children>
+      </children>
+    </mainMenu>
+    <sharedElements xsi:type="basic:Part" xmi:id="_T4J0kPW5EeG7tr8qKhf17Q" elementId="at.bestsolution.efxclipse.testcases.e4.part.7" contributionURI="bundleclass://at.bestsolution.efxclipse.testcases.e4/at.bestsolution.efxclipse.testcases.e4.parts.ContentPanel" label="C7"/>
+    <trimBars xmi:id="_A7Q9o-L-EeGP-5z69KadAQ">
+      <children xsi:type="menu:ToolBar" xmi:id="_A7Q9pOL-EeGP-5z69KadAQ" elementId="org.efxclipse.e4.maintoolbar">
+        <children xsi:type="menu:HandledToolItem" xmi:id="_fbkNAORYEeGP-5z69KadAQ" elementId="at.bestsolution.efxclipse.testcases.e4.handledtoolitem.0" label="Push - HI 0" command="_FEZr8OUcEeGP-5z69KadAQ"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_gbQvcORYEeGP-5z69KadAQ" elementId="at.bestsolution.efxclipse.testcases.e4.handledtoolitem.1" label="Check - HI 1" selected="true" type="Check" command="_3PQSEOqiEeGrz8mV_3Gr5A"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_suBhkORYEeGP-5z69KadAQ" elementId="at.bestsolution.efxclipse.testcases.e4.handledtoolitem.2" label="Radio - HI 2" type="Radio" command="_FEZr8OUcEeGP-5z69KadAQ"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_3aRo4ORYEeGP-5z69KadAQ" elementId="at.bestsolution.efxclipse.testcases.e4.handledtoolitem.3" label="Radio - HI 3" type="Radio" command="_FEZr8OUcEeGP-5z69KadAQ"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_88IH4ORYEeGP-5z69KadAQ" elementId="at.bestsolution.efxclipse.testcases.e4.handledtoolitem.4" label="Split - HI 4" command="_FEZr8OUcEeGP-5z69KadAQ">
+          <menu xmi:id="_WI3gUORdEeGcrYrtitkVHQ" elementId="at.bestsolution.efxclipse.testcases.e4.menu.0">
+            <children xsi:type="menu:HandledMenuItem" xmi:id="_9EluEORdEeGcrYrtitkVHQ" elementId="at.bestsolution.efxclipse.testcases.e4.handledmenuitem.0" label="ToolItem Menu 1" command="_FEZr8OUcEeGP-5z69KadAQ"/>
+            <children xsi:type="menu:HandledMenuItem" xmi:id="_Eei-MOReEeGcrYrtitkVHQ" elementId="at.bestsolution.efxclipse.testcases.e4.handledmenuitem.0" label="ToolItem Menu 2"/>
+          </menu>
+        </children>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_kDT7AOZXEeGrz8mV_3Gr5A" elementId="at.bestsolution.efxclipse.testcases.e4.toolbar.1">
+        <children xsi:type="menu:DirectToolItem" xmi:id="_lavA8OZXEeGrz8mV_3Gr5A" elementId="at.bestsolution.efxclipse.testcases.e4.directtoolitem.0" label="Push - DI 0" contributionURI="bundleclass://at.bestsolution.efxclipse.testcases.e4/at.bestsolution.efxclipse.testcases.e4.handlers.DiHandler"/>
+        <children xsi:type="menu:DirectToolItem" xmi:id="_okY5gOZXEeGrz8mV_3Gr5A" elementId="at.bestsolution.efxclipse.testcases.e4.directtoolitem.1" label="Check - DI 1" type="Check" contributionURI="bundleclass://at.bestsolution.efxclipse.testcases.e4/at.bestsolution.efxclipse.testcases.e4.handlers.DiHandler"/>
+        <children xsi:type="menu:DirectToolItem" xmi:id="_s6sycOZXEeGrz8mV_3Gr5A" elementId="at.bestsolution.efxclipse.testcases.e4.directtoolitem.2" label="Radio - DI 2" type="Radio" contributionURI="bundleclass://at.bestsolution.efxclipse.testcases.e4/at.bestsolution.efxclipse.testcases.e4.handlers.DiHandler"/>
+        <children xsi:type="menu:DirectToolItem" xmi:id="_vOWQEOZXEeGrz8mV_3Gr5A" elementId="at.bestsolution.efxclipse.testcases.e4.directtoolitem.3" label="Radio - DI 3" type="Radio" contributionURI="bundleclass://at.bestsolution.efxclipse.testcases.e4/at.bestsolution.efxclipse.testcases.e4.handlers.DiHandler"/>
+        <children xsi:type="menu:DirectToolItem" xmi:id="_xaLOcOZXEeGrz8mV_3Gr5A" elementId="at.bestsolution.efxclipse.testcases.e4.directtoolitem.4" label="Split - DI 4" contributionURI="bundleclass://at.bestsolution.efxclipse.testcases.e4/at.bestsolution.efxclipse.testcases.e4.handlers.DiHandler"/>
+      </children>
+    </trimBars>
+  </children>
+  <handlers xmi:id="_H2FJYOUcEeGP-5z69KadAQ" elementId="at.bestsolution.efxclipse.testcases.e4.handler.0" contributionURI="bundleclass://at.bestsolution.efxclipse.testcases.e4/at.bestsolution.efxclipse.testcases.e4.handlers.Handler0" command="_FEZr8OUcEeGP-5z69KadAQ"/>
+  <handlers xmi:id="_0_q1EOqiEeGrz8mV_3Gr5A" elementId="at.bestsolution.efxclipse.testcases.e4.handler.0" contributionURI="bundleclass://at.bestsolution.efxclipse.testcases.e4/at.bestsolution.efxclipse.testcases.e4.handlers.Handler1" command="_3PQSEOqiEeGrz8mV_3Gr5A"/>
+  <handlers xmi:id="_otsOgO6yEeG4lfn-YKJbJw" elementId="at.bestsolution.efxclipse.testcases.e4.handler.0" contributionURI="bundleclass://at.bestsolution.efxclipse.testcases.e4/at.bestsolution.efxclipse.testcases.e4.handlers.SwitchPerspectiveHandler" command="_kCbZQO6yEeG4lfn-YKJbJw"/>
+  <bindingTables xmi:id="_A7QWm-L-EeGP-5z69KadAQ" bindingContext="_A7QWkeL-EeGP-5z69KadAQ">
+    <bindings xmi:id="_XqO-oOUcEeGP-5z69KadAQ" keySequence="CTRL+I" command="_FEZr8OUcEeGP-5z69KadAQ"/>
+  </bindingTables>
+  <rootContext xmi:id="_A7QWkeL-EeGP-5z69KadAQ" elementId="org.eclipse.ui.contexts.dialogAndWindow" name="In Dialog and Windows">
+    <children xmi:id="_A7QWkuL-EeGP-5z69KadAQ" elementId="org.eclipse.ui.contexts.window" name="In Windows"/>
+    <children xmi:id="_A7QWk-L-EeGP-5z69KadAQ" elementId="org.eclipse.ui.contexts.dialog" name="In Dialogs"/>
+  </rootContext>
+  <commands xmi:id="_FEZr8OUcEeGP-5z69KadAQ" elementId="at.bestsolution.efxclipse.testcases.e4.command.0" commandName="CMD 0"/>
+  <commands xmi:id="_3PQSEOqiEeGrz8mV_3Gr5A" elementId="at.bestsolution.efxclipse.testcases.e4.command.1" commandName="CMD 1"/>
+  <commands xmi:id="_kCbZQO6yEeG4lfn-YKJbJw" elementId="at.bestsolution.efxclipse.testcases.e4.command.2" commandName="Switch Perspective">
+    <parameters xmi:id="_mCIAIO6yEeG4lfn-YKJbJw" elementId="at.bestsolution.efxclipse.testcases.e4.command.2.perspective" name="Perspective Id" optional="false"/>
+  </commands>
+  <addons xmi:id="_A7QWlOL-EeGP-5z69KadAQ" elementId="org.eclipse.e4.core.commands.service" contributionURI="bundleclass://org.eclipse.e4.core.commands/org.eclipse.e4.core.commands.CommandServiceAddon"/>
+  <addons xmi:id="_A7QWleL-EeGP-5z69KadAQ" elementId="org.eclipse.e4.ui.contexts.service" contributionURI="bundleclass://org.eclipse.e4.ui.services/org.eclipse.e4.ui.services.ContextServiceAddon"/>
+  <addons xmi:id="_A7QWluL-EeGP-5z69KadAQ" elementId="at.bestsolution.efxclipse.runtime.bindings.e4.service" contributionURI="bundleclass://at.bestsolution.efxclipse.runtime.bindings.e4/at.bestsolution.efxclipse.runtime.bindings.e4.BindingServiceAddon"/>
+  <addons xmi:id="_A7QWl-L-EeGP-5z69KadAQ" elementId="org.eclipse.e4.ui.workbench.commands.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.CommandProcessingAddon"/>
+  <addons xmi:id="_A7QWmOL-EeGP-5z69KadAQ" elementId="org.eclipse.e4.ui.workbench.contexts.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.ContextProcessingAddon"/>
+  <addons xmi:id="_tQtNQOUbEeGP-5z69KadAQ" elementId="at.bestsolution.efxclipse.runtime.bindings.e4.model" contributionURI="bundleclass://at.bestsolution.efxclipse.runtime.bindings.e4/at.bestsolution.efxclipse.runtime.bindings.e4.BindingProcessingAddon"/>
+</application:Application>

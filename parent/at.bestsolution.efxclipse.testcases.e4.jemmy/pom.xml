@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+	<modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>pza.tycho.jemmy</groupId>
+		<artifactId>pza.tycho.jemmy.main</artifactId>
+		<version>1.0.0-SNAPSHOT</version>
+	</parent>
+
+	<artifactId>at.bestsolution.efxclipse.testcases.e4.jemmy</artifactId>
+	<packaging>eclipse-test-plugin</packaging>
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	</properties>
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.eclipse.tycho</groupId>
+				<artifactId>tycho-surefire-plugin</artifactId>
+				<version>${tycho.version}</version>
+				<configuration>
+
+					<testSuite>at.bestsolution.efxclipse.testcases.e4.jemmy</testSuite>
+					<testClass>at.bestsolution.efxclipse.testcases.e4.jemmy.TestSuite</testClass>
+
+					<failIfNoTests>true</failIfNoTests>
+					<testFailureIgnore>false</testFailureIgnore>
+					<argLine>-Xms40m -Xmx512m -Dosgi.framework.extensions=at.bestsolution.efxclipse.runtime.osgi -Dtest.jemmy.product=at.bestsolution.efxclipse.testcases.e4.product</argLine>
+					
+					<useUIHarness>true</useUIHarness>
+					<useUIThread>false</useUIThread>
+					<dependencies>
+						<dependency>
+							<type>eclipse-feature</type>
+							<artifactId>pawelz.tycho.jemmy.feature</artifactId>
+							<version>0.0.0</version>
+						</dependency>
+					</dependencies>
+					<extraClasspathElements>
+						<extraClasspathElement>
+							<groupId>javafx</groupId>
+							<artifactId>javafx.mvn</artifactId>
+							<version>2.2.0-SNAPSHOT</version>
+						</extraClasspathElement>
+					</extraClasspathElements>
+
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+
+</project>

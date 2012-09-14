@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin>
+
+   <extension
+         id="product"
+         point="org.eclipse.core.runtime.products">
+      <product
+            name="at.bestsolution.efxclipse.testcases.e4"
+            application="at.bestsolution.efxclipse.runtime.workbench.fx.application">
+         <property
+               value="at.bestsolution.efxclipse.testcases.e4"
+               name="appName">
+         </property>
+         <property
+               value="platform:/plugin/at.bestsolution.efxclipse.testcases.e4/css/default.css"
+               name="applicationCSS">
+         </property>
+         <property
+               value="at.bestsolution.efxclipse.testcases.e4/Application.e4xmi"
+               name="applicationXMI">
+         </property>
+      </product>
+   </extension>
+   <extension
+         point="at.bestsolution.efxclipse.runtime.theme">
+      <theme
+            basestylesheet="css/default.css"
+            id="default.theme">
+      </theme>
+   </extension>
+
+</plugin>
