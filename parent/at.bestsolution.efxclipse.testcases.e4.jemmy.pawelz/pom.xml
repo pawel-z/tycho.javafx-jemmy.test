@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+	<modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>pawelz.tycho.jemmy</groupId>
+		<artifactId>pawelz.tycho.jemmy.main</artifactId>
+		<version>1.0.0-SNAPSHOT</version>
+	</parent>
+
+	<artifactId>at.bestsolution.efxclipse.testcases.e4.jemmy.pawelz</artifactId>
+	<packaging>eclipse-test-plugin</packaging>
+
+	<properties>
+		<projectToTest>at.bestsolution.efxclipse.testcases.e4</projectToTest>
+	</properties>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.eclipse.tycho</groupId>
+				<artifactId>tycho-surefire-plugin</artifactId>
+				<version>${tycho.version}</version>
+				<configuration>
+					<failIfNoTests>true</failIfNoTests>
+					<testFailureIgnore>false</testFailureIgnore>
+
+					<testSuite>${project.artifactId}</testSuite>
+					<testClass>at.bestsolution.efxclipse.testcases.e4.jemmy.TestSuite</testClass>
+
+					<appArgLine>-os ${os.name} -ws ${os.name} -arch ${os.arch} -consoleLog -applicationXMI ${projectToTest}/Application.e4xmi</appArgLine>
+					<argLine>-Xms40m -Xmx512m</argLine>
+
+					<useUIThread>true</useUIThread>
+					<useSystemClassLoader>true</useSystemClassLoader>
+
+					<dependencies>
+						<dependency>
+							<type>eclipse-feature</type>
+							<artifactId>pawelz.tycho.jemmy.feature</artifactId>
+							<version>0.0.0</version>
+						</dependency>
+
+						<dependency>
+							<type>p2-installable-unit</type>
+							<artifactId>org.eclipse.e4.rcp.feature.group</artifactId>
+							<version>0.0.0</version>
+						</dependency>
+					</dependencies>
+
+					<frameworkExtensions>
+						<frameworkExtension>
+							<!-- instead of using system scope it can be installed into a maven repository. -->
+							<groupId>at.bestsolution.efxclipse</groupId>
+							<artifactId>at.bestsolution.efxclipse.runtime.osgi</artifactId>
+							<version>0.1.0</version>
+							<!-- <scope>system</scope> <systemPath>PATH_TO_YOUR_ECLIPSE/plugins/at.bestsolution.efxclipse.runtime.osgi_0.1.0.201209130643.jar</systemPath> -->
+						</frameworkExtension>
+					</frameworkExtensions>
+
+					<bundleStartLevel>
+						<bundle>
+							<id>org.eclipse.equinox.ds</id>
+							<level>1</level>
+							<autoStart>true</autoStart>
+						</bundle>
+					</bundleStartLevel>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+</project>
