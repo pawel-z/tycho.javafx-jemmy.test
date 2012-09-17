@@ -10,8 +10,6 @@
 
 	<name>Main</name>
 
-
-
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<tycho.version>0.16.0-SNAPSHOT</tycho.version>
@@ -27,7 +25,8 @@
 		<repository>
 			<id>efxclipse-nightly-repo</id>
 			<layout>p2</layout>
-			<url>http://www.efxclipse.org/p2-repos/nightly/site/</url>
+			<!-- <url>http://www.efxclipse.org/p2-repos/nightly/site/</url> -->
+			<url>file:/C:/dev_programs/local_efxclipse_repo/site_assembly</url>
 		</repository>
 	</repositories>
 
@@ -42,7 +41,8 @@
 
 	<modules>
 		<module>at.bestsolution.efxclipse.testcases.e4</module>
-		<module>at.bestsolution.efxclipse.testcases.e4.jemmy</module>
+		<!-- <module>at.bestsolution.efxclipse.testcases.e4.jemmy</module> -->
+		<module>at.bestsolution.efxclipse.testcases.e4.jemmy.pawelz</module>
 		<module>pawelz.tycho.jemmy.feature</module>
 	</modules>
 
